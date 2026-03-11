@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Lato", sans-serif;
+}
+
+.header{
+    background:#f4d6c7;
+    padding:20px 0;
+    
+}
+
+.container{
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+    text-decoration: none;
+}
+
+.menu {
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.item-link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #424551;
+    text-decoration: none;
+}
+
+.main {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.about-us {
+    height: 500px;
+    background-color: green;
+}
+
+.courses {
+    height: 500px;
+    background-color: red;
+}
+
+.events {
+    height: 500px;
+    background-color: blue;
+}
+
+.blog {
+    height: 500px;
+    background-color: black;
+}
+
+.contacts {
+    height: 500px;
+    background-color: lawngreen;
+}
